@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Wicky 
+- prénom : Arthur
+- URL Netlify : https://statuesque-choux-16f66f.netlify.app
 
 # Travail
 
