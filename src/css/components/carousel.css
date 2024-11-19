@@ -13,6 +13,10 @@ La propriété "scroll-snap-type" définit la force d'adhérence aux points d'ac
 https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
 Les margin négatifs à gauche et à droite corresponde à l'éespace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.
 */
+.carousel{
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 .carousel__container {
   display: flex;
@@ -73,7 +77,9 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 
 .carousel__item {
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
-  flex: 1 0 260px;
+  flex: 1 0 50%;
+  justify-content: center;
+  align-items: center;
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
   scroll-snap-align: center;
 }
