@@ -27,7 +27,7 @@ Les `____` sont à remplacer par les termes corrects.
 Trouvez l'élément de classe CSS `carousel__container` :
 
 ```js
-carousel = document.querySelector("______");
+carousel = document.querySelector(".carousel__container");
 ```
 
 Doit afficher dans la console :
@@ -67,7 +67,7 @@ Scroll vers la droite (scroll **moins**)
 Trouvez l'élément de classe CSS `carousel__button--prev` :
 
 ```js
-prevButton = __________________;
+prevButton = document.querySelector(" carousel__button--prev");
 ```
 
 Doit afficher dans la console :
@@ -84,7 +84,7 @@ Doit afficher dans la console :
 Trouvez l'élément de classe CSS `carousel__button--next` :
 
 ```js
-nextButton = _______________________;
+nextButton = document.querySelector(".carousel__button--next");
 ```
 
 Doit afficher dans la console :
